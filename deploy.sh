@@ -1,7 +1,7 @@
 #!bin/bash
 ngrok service stop
 sudo systemctl stop nginx
-cd /etc/nginx/
+cd /etc/nginx/first-deploy-aws
 sudo git pull origin main
 sudo systemctl start nginx
 sudo systemctl restart nginx
